@@ -126,6 +126,21 @@ body {
   margin-left: 40px;
 }
 
+.tulip1 {
+  position: absolute;
+  left: 3%;
+  bottom: 0;
+  scale: 0.8;
+  rotate: -10deg;
+}
+
+.tulip2 {
+  position: absolute;
+  left: 52%;
+  top: 20%;
+  /* scale: 0.8; */
+}
+
 /* Action buttons */
 .action-buttons {
   display: flex;
@@ -361,8 +376,23 @@ body {
     left: 35%;
   }
 
-  .letter-card {
+  .letter-container {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .tulip1 {
+    position: absolute;
+    left: 45%;
+    bottom: 0;
+    scale: 0.4;
+    rotate: -10deg;
+  }
+
+  .tulip2 {
+    position: absolute;
+    left: 87%;
+    top: 37%;
+    scale: 0.4;
   }
 }
 
@@ -386,6 +416,7 @@ body {
     top: 100px;
   }
 
+
   .mom-image,
   .greeting {
     flex: none;
@@ -402,13 +433,34 @@ body {
 
   .title-image {
     margin-left: 0;
+    left: 100px;
+  }
+
+
+  .tulip1 {
+    position: absolute;
+    left: 5%;
+    top: 15%;
+    rotate: -10deg;
+    scale: 1;
+  }
+
+  .tulip2 {
+    position: absolute;
+    left: 83%;
+    top: 50%;
+    scale: 0.4;
+    rotate: 45deg;
   }
 
   .action-buttons {
-    justify-content: center;
     position: absolute;
-    left: 55%;
-    bottom: -50%;
+    gap: 15px;
+    bottom: 22%;
+    max-width: 400px;
+    left: 0;
+    left: 48%;
+    top: 500px;
   }
 }
 
@@ -474,6 +526,21 @@ body {
     left: 0;
   }
 
+  .tulip1 {
+    position: absolute;
+    left: -1%;
+    top: 23%;
+    scale: 0.5;
+  }
+
+  .tulip2 {
+    position: absolute;
+    left: 79%;
+    top: 30%;
+    scale: 0.5;
+    rotate: 20deg;
+  }
+
   .mom {
     max-height: 50vh;
     position: absolute;
@@ -500,12 +567,11 @@ body {
   }
 
   .action-buttons {
-    position: absolute; /* Ensure it flows naturally in the document */
+    position: absolute;
     gap: 15px;
     bottom: 0;
-    background-color: bisque !important;
-    left: 30%;
-    top: 300px;
+    left: 40%;
+    top: 400px;
   }
 
   .btn {
@@ -549,6 +615,21 @@ body {
   .hamburger {
     top: 15px;
     right: 15px;
+  }
+
+  .tulip1 {
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    scale: 0.5;
+  }
+
+  .tulip2 {
+    position: absolute;
+    left: 65%;
+    top: 50%;
+    scale: 0.5;
+    rotate: 10deg;
   }
 
   .greeting {
@@ -604,7 +685,7 @@ body {
     position: absolute;
     justify-items: center;
     bottom: -100%;
-    left: 25%;
+    left: 32%;
     top: 250px;
   }
 }
@@ -633,11 +714,30 @@ body {
     display: none;
   }
 
+
+  .tulip1 {
+    position: absolute;
+    left: -7%;
+    top: 50%;
+    scale: 0.4;
+  }
+
+  .tulip2 {
+    position: absolute;
+    left: 65%;
+    top: 50%;
+    scale: 0.4;
+  }
+
   .action-buttons {
-    flex-direction: column;
     gap: 10px;
     width: 100%;
     max-width: 200px;
     margin-left: 0;
+    position: absolute;
+    justify-items: center;
+    bottom: -100%;
+    left: 27%;
+    top: 250px;
   }
 }
